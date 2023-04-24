@@ -11,7 +11,7 @@ import minimist from "minimist";
 //remove default arg content, and get timezone
 const args = process.argv.slice(2)
 let timezone = moment.tz.guess()
-console.log(timezone)
+//console.log(timezone)
 
 //initialize default flag input content values
 let latitude = null
@@ -25,7 +25,7 @@ let output = null
 // }
 // console.log("sign-verified latitude: " + latitude)
 
-console.log(args);
+//console.log(args);
 //assign values and functionality to flags
 for (let i = 0; i < args.length; i++) {
     if(args[i]=='-h') {
