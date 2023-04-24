@@ -25,7 +25,6 @@ let output = null
 // }
 // console.log("sign-verified latitude: " + latitude)
 
-//console.log(args);
 //assign values and functionality to flags
 for (let i = 0; i < args.length; i++) {
     if(args[i]=='-h') {
@@ -77,6 +76,9 @@ for (let i = 0; i < args.length; i++) {
     }
     if(args[i]=='-j') {
         output=true
+    }
+    if(i==(args.length-1) && days==null) {
+        days = 1;
     }
   }
 
