@@ -14,8 +14,8 @@ let timezone = moment.tz.guess()
 //console.log(timezone)
 
 //initialize default flag input content values
-let latitude = null
-let longitude = null
+let latitude = 99999
+let longitude = 99999
 let days = null
 let output = null
 // latitude = latitude.toFixed(2);
