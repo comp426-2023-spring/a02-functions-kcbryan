@@ -95,6 +95,7 @@ function areWeGaloshing(data, days) {
     }
 }
 
+//supply time-string for areWeGaloshing (when will you need the boots)
 function dayString(days) {
     if(days==null || days == 1) {
         return "tomorrow."
