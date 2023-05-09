@@ -68,6 +68,7 @@ for (let i = 0; i < args.length; i++) {
     }
   }
 
+//function called on -h to print out help message
 function getHelp() {
         console.log("Usage: galosh.js [options] -[n|s] LATITUDE -[e|w] LONGITUDE -z TIME_ZONE")
         console.log("\t-h            Show this help message and exit.")    
