@@ -22,16 +22,12 @@ for (let i = 0; i < args.length; i++) {
         getHelp()
     }
     if(args[i]=='-n') {
-        //console.log("unmodified args value: " + args[i]);
         let lat = Number(args[i + 1]);
-        //console.log(typeof lat);
-        //console.log(lat);
         lat = lat.toFixed(2);
         if(lat < 0){
             lat = 0 - lat;
         }
         latitude = lat;
-        //console.log("latitude: " + latitude)
     }
     if(args[i]=='-s') {
         let lat = Number(args[i + 1]);
