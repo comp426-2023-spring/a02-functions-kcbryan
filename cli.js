@@ -15,12 +15,6 @@ let latitude = 100
 let longitude = 100
 let days = null
 let output = null
-// latitude = latitude.toFixed(2);
-// console.log("rounded latitude: " + latitude);
-// if(latitude>0) {
-//     latitude = 0 -latitude
-// }
-// console.log("sign-verified latitude: " + latitude)
 
 //assign values and functionality to flags
 for (let i = 0; i < args.length; i++) {
