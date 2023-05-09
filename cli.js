@@ -36,7 +36,6 @@ for (let i = 0; i < args.length; i++) {
             lat = 0 - lat;
         }
         latitude = lat;
-        //console.log("latitude: " + latitude);
     }
     if(args[i]=='-e') {
         let longi = Number(args[i + 1]);
@@ -107,8 +106,6 @@ function dayString(days) {
 }
   
 if(output==true) {
-    //process.stdout.write(data.stringify());
-    //this may get angry because it isnt using stdout, but we shall seeee
     console.log(data);
     process.exit(0);
 }
