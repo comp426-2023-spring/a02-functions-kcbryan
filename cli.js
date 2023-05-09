@@ -85,6 +85,7 @@ const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=' 
 // Get the data from the request
 const data = await response.json();
 
+//return data regarding specifically galosh-wearing necessity
 function areWeGaloshing(data, days) {
     if(data.daily.precipitation_hours[days]>0) {
         console.log("You might need your galoshes " + dayString(days))
