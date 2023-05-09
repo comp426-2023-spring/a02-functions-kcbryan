@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-//may have to remove "is_day" from apeometeor input
-//https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&daily=precipitation_hours&current_weather=true&temperature_unit=fahrenheit&timezone=America%2FNew_York
 
 //import statements to run program
 import moment from "moment"
@@ -11,7 +9,6 @@ import minimist from "minimist";
 //remove default arg content, and get timezone
 const args = process.argv.slice(2)
 let timezone = moment.tz.guess()
-//console.log(timezone)
 
 //initialize default flag input content values
 let latitude = 100
